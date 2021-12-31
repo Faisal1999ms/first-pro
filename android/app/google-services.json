@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "55831021803",
+    "project_id": "flutter-app-e6616",
+    "storage_bucket": "flutter-app-e6616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55831021803:android:3a7268a9c1eaea2bf0d6ae",
+        "android_client_info": {
+          "package_name": "com.example.fluteer_grad_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55831021803-qfr6digc240orjpuiqfov99608qin6jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHOq9VuNMEPoL_MYjWmh3yaWKpA8fRV5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55831021803-qfr6digc240orjpuiqfov99608qin6jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
