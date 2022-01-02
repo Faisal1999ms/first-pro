@@ -13,10 +13,11 @@ class StoriesPage extends StatelessWidget {
     context.read<NewsData>().fetchdata;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Stories"),
+        title: Text(Provider.of<NewsData>(context).errormassage),
       ),
       body: RefreshIndicator(
         onRefresh: () async {
+          // Provider.of<NewsData>(context).fetchdata;
           await context.read<NewsData>().fetchdata;
         },
         child: Center(

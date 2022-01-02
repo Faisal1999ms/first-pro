@@ -9,7 +9,7 @@ class NewsData with ChangeNotifier {
   List<dynamic> _map = [];
   List<News> NewsDa;
   bool _error = false;
-  String _errormassage = "";
+  String _errormassage = "Stories";
   List<dynamic> get map => _map;
   bool get error => _error;
   String get errormassage => _errormassage;
