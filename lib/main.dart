@@ -7,23 +7,25 @@ import 'package:provider/provider.dart';
 
 import 'models/news_data.dart';
 
-// void main() {
-//   runApp(myApp());
-// }
+// https://youtu.be/CQt91j_MsUw
+
+void main() {
+  runApp(myApp());
+}
 // void main() {
 //   runApp(ChangeNotifierProvider(
 //     create: (_) => NewsData(),
 //     child: myApp(),
 //   ));
 // }
-void main() {
-  runApp(MultiProvider(
-    providers: [
-      Provider<NewsData>(create: (_) => NewsData()),
-    ],
-    child: myApp(),
-  ));
-}
+// void main() {
+//   runApp(MultiProvider(
+//     providers: [
+//       Provider<NewsData>(create: (_) => NewsData()),
+//     ],
+//     child: myApp(),
+//   ));
+// }
 
 class myApp extends StatelessWidget {
   const myApp({Key key}) : super(key: key);
